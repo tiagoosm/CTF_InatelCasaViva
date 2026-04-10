@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FiLogOut } from "react-icons/fi";
 import { useNavigate } from 'react-router-dom';
 
 export default function Home() 
@@ -55,32 +54,32 @@ export default function Home()
                     
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(1)}>
-                        <img src={imagem1} className={hidden.includes(1) ? "hidden" : ""} />
+                        <img src={imagem1} alt="fogo" className={hidden.includes(1) ? "hidden" : ""} />
                     </div>
 
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(2)}>
-                        <img src={imagem2} className={hidden.includes(2) ? "hidden" : ""} />
+                        <img src={imagem2} alt="cachorro" className={hidden.includes(2) ? "hidden" : ""} />
                     </div>
 
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(3)}>
-                        <img src={imagem3} className={hidden.includes(3) ? "hidden" : ""} />
+                        <img src={imagem3} alt="estrelas" className={hidden.includes(3) ? "hidden" : ""} />
                     </div>
 
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(4)}>
-                        <img src={imagem4} className={hidden.includes(4) ? "hidden" : ""} />
+                        <img src={imagem4} alt="desenho" className={hidden.includes(4) ? "hidden" : ""} />
                     </div>
 
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(5)}>
-                        <img src={imagem5} className={hidden.includes(5) ? "hidden" : ""} />
+                        <img src={imagem5} alt="bolinha" className={hidden.includes(5) ? "hidden" : ""} />
                     </div>
 
                     <div className="w-[15vw] h-[15vh] flex justify-center items-center cursor-pointer"
                         onClick={() => toggleImage(6)}>
-                        <img src={imagem6} className={hidden.includes(6) ? "hidden" : ""} />
+                        <img src={imagem6} alt="arvore" className={hidden.includes(6) ? "hidden" : ""} />
                     </div>
 
                 </div>

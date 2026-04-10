@@ -20,7 +20,7 @@ export default function CarouselCTF()
 
     // --- zoom states ---
     const [zoomAberto, setZoomAberto] = useState(false)
-    const [lupa, setLupa] = useState({ x: 0, y: 0, visible: false })
+    const [setLupa] = useState({ x: 0, y: 0, visible: false })
     const imgRef = useRef(null)
 
     function verificar(event){
